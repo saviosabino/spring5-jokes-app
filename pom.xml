@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>guru.springframework.joke</groupId>
-	<artifactId>spring5-jokes-app</artifactId>
+	<artifactId>jokeapp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring5-jokes-app</name>
+	<name>jokeapp</name>
 	<description>Joke app with spring boot</description>
 
 	<properties>
