@@ -10,11 +10,12 @@ public class JokeServiceImpl implements JokeService{
 	
 	public JokeServiceImpl(ChuckNorrisQuotes chuckNorrisQuotes) {
 		this.chuckNorrisQuotes =  chuckNorrisQuotes;
+	
 	}
 
 	@Override
 	public String getJoke() {
-		// TODO Auto-generated method stub
+
 		return chuckNorrisQuotes.getRandomQuote();
 	}
 	
